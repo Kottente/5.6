@@ -1,6 +1,5 @@
-package com.example.a56
+package com.example.a56.local
 
-import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
@@ -10,5 +9,6 @@ data class Squirrel(
     val id: Int,
     //@ColumnInfo(name = "bugugaga")
     val colorTrail: String,
-    val name: String
+    val name: String,
+    val phraseId:Int
 )
